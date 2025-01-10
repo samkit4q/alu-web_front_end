@@ -1,0 +1,23 @@
+/* styles/3-style.css */
+
+/* Define custom properties for colors */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+  }
+  
+  /* Revisit the section-tagline and card-category declarations and use custom properties */
+  .card-category,
+  .section-tagline {
+    color: var(--color-primary);
+  }
+  
+  /* Revisit the body and anchor declarations and use the text-color custom property */
+  body,
+  a {
+    color: var(--text-color);
+  }
